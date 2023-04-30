@@ -1,0 +1,40 @@
+{
+  "name": "sinon-spy",
+  "version": "1.0.0",
+  "description": "learning about sinon spy",
+  "main": "taxCalculator.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CynLadyPenguin/beeplay-example.git"
+  },
+  "keywords": [
+    "sinon",
+    "spy",
+    "taxCalculator"
+  ],
+  "author": "Cynthia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CynLadyPenguin/beeplay-example/issues"
+  },
+  "homepage": "https://github.com/CynLadyPenguin/beeplay-example#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha-jsdom": "^2.0.0",
+    "node": "^19.8.1"
+  },
+  "devDependencies": {
+    "karma": "^6.4.2",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-mocha": "^2.0.1",
+    "karma-ng-html2js-preprocessor": "^1.0.0",
+    "karma-sinon-chai": "^2.0.2",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.4",
+    "sinon-chai": "^3.7.0"
+  }
+}
